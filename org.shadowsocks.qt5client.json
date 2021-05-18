@@ -1,7 +1,7 @@
 {
   "app-id": "org.shadowsocks.qt5client",
   "runtime": "org.kde.Platform",
-  "runtime-version": "5.12",
+  "runtime-version": "5.15",
   "sdk": "org.kde.Sdk",
   "command": "ss-qt5",
   "finish-args": [
@@ -30,6 +30,7 @@
   
   
   "modules": [
+    "shared-modules/python2.7/python-2.7.json",
     {
       "name": "libzbar",
       "buildsystem": "autotools",
