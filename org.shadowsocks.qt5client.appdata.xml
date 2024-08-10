@@ -28,21 +28,27 @@
   </content_rating>
   <releases>
     <release date="2018-05-22" version="v3.0.1" >
-      <ul>
-        <li>Fix ss:// URI validation issue</li>
-        <li>Remove unused logging option</li>
-      </ul>
+      <description>
+        <p>In this version:</p>
+        <ul>
+          <li>Fix ss:// URI validation issue</li>
+          <li>Remove unused logging option</li>
+        </ul>
+      </description>
     </release>
     <release date="2018-01-05" version="v3.0.0" >
-      <ul>
-        <li>Minimum requirement of libQtShadowsocks is bumped to 2.0.0, which brings Shadowsocks AEAD support (Botan-2 is required for this feature) and Shadowsocks SIP002 URI scheme support</li>
-        <li>Log viewer is now removed due to the logging changes in libQtShadowsocks</li>
-        <li>Application indicator is now removed</li>
-        <li>CMake build system</li>
-        <li>Other bugs fixed </li>
-        <li>You need a compiler that supports C++14 to build this project</li>
-        <li>debian directory is removed from this repository and I will no longer maintain the Ubuntu PPA. All packaging is now up to communities except for Fedora Copr.</li>
-      </ul>
+      <description>
+        <p>In this version:</p>
+        <ul>
+          <li>Minimum requirement of libQtShadowsocks is bumped to 2.0.0, which brings Shadowsocks AEAD support (Botan-2 is required for this feature) and Shadowsocks SIP002 URI scheme support</li>
+          <li>Log viewer is now removed due to the logging changes in libQtShadowsocks</li>
+          <li>Application indicator is now removed</li>
+          <li>CMake build system</li>
+          <li>Other bugs fixed </li>
+          <li>You need a compiler that supports C++14 to build this project</li>
+          <li>debian directory is removed from this repository and I will no longer maintain the Ubuntu PPA. All packaging is now up to communities except for Fedora Copr.</li>
+        </ul>
+      </description>
     </release>
   </releases>
 </component>
